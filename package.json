@@ -1,0 +1,29 @@
+{
+  "name": "v-slick",
+  "version": "0.0.1",
+  "description": "A vue directive for slickjs",
+  "author": "Alexander Maridueña <ajmariduena@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib && babel src -d lib --ignore src/__tests__"
+  },
+  "keywords": [
+    "vue",
+    "slickjs"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajmariduena/v-slick"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}
